@@ -1,0 +1,15 @@
+#footer {
+  text-align: center;
+  background-color: #5cc8a8;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.jumbotron {
+  background-color: #5cc8a8;
+}
+
+
+.footer-icon {
+  margin: 20px 10px;
+}
