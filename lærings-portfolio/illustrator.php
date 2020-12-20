@@ -44,7 +44,7 @@
   <section class="jumbotron text-center">
     <div class="container">
       <h1>Illustrator værktøjer</h1>
-      <p class="lead text-muted">Her kan man finde informationer omkring hvad jeg har lært angående design</p>
+      <p class="lead text-muted">Her gennegår jeg de værktøjer jeg har brugt mest i Illustrator</p>
     </div>
   </section>
 
@@ -61,11 +61,11 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <h2 class="featurette-heading">Selectors <span class="text-muted">Vælger et objekt</span></h2>
+        <p class="lead">På billede over til højre har vi værktøjskassen, hvor vi har selectors i dette tilfælde. Det man kan bruge selectors til at vælge et objekt at rykke rundt med, eller "group" flere objekter sammen til et objekt. Der er tre forskellige "Selectors" du kan vælge imellem. Det er f.eks. den almindelige "Selection tool", "Direct selection" eller "Group selection". Med "Selection tool" kan du også vælge flere objekter på  samme tid, ved at holde "shift" inde også derefter trykke på det valgte objekt.  Med "Direct selection" kan du ændre formen på det valgte objekt. <cite> -Tony Harmer, Linkedid learning, 20-12-2020 </cite></p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <svg  class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><image href="select.png" height="500" width="500"/></svg>
       </div>
     </div>
 
@@ -73,11 +73,11 @@
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <h2 class="featurette-heading">Tegne værktøjer <span class="text-muted">Vælg det der passer bedst</span></h2>
+        <p class="lead">Der 6 forskellige værktøjer man kan bruge i værktøjskassen når det kommer til at tegne former, og det kan ses på billedet til venstre. Det første er "Rectangle Tool" som gør at man kan begynde at tegne firkanter. Den næste er hvor man kan tegne firkanter med afrundede kanter. Ved nr 3 kan man tegne cirkler. Ved nr 4 kan man tegne polygoner, såsom femkanter osv. Ved nr 5 kan man tegne stjerner. Og den sidste, kan man tegne sådan noget flare, hvilket kan bruges til f.eks at tegne et øje eller noget andet.<cite> -Tony Harmer, Linkedid learning, 20-12-2020 </cite></p>
       </div>
       <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <svg  class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><image href="tegn.png" height="500" width="500"/></svg>
       </div>
     </div>
 
@@ -85,13 +85,14 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <h2 class="featurette-heading">Farver. <span class="text-muted">Giv dine objekter en identitet</span></h2>
+        <p class="lead">Dette her værktøj som kan ses på billedet til højre,   bruger man til at skifte farve med. Man kan gå ind og vælge den farve man gerne vil, og man kan endda se "hexa" koden for den farve man har valgt sådan at man kan sætte den "hexa" kode ind i sin CSS</p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <svg  class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><image href="farve.png" height="500" width="500"/></svg>
       </div>
     </div>
+
 
     <hr class="featurette-divider">
 
