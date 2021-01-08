@@ -1,12 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="da">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="author" content="Jonas Hawthorn Mikkelsen">
     <meta name="generator" content="Jekyll v4.1.1">
-    <title>Carousel Template · Bootstrap</title>
+    <link rel="icon" href="favicon.ico">
+    <title>Bootstrap</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
 
@@ -15,9 +16,11 @@
 
     <!-- Bootstrap core CSS -->
 <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- EGEN CSS -->
 <link rel="stylesheet" href="underside.css">
 <link rel="stylesheet" href="bodyfix.css">
-
+<link rel="stylesheet" href="billede.css">
+  <!-- INTERN CSS -->
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -37,14 +40,15 @@
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
   </head>
+  <!-- MENU BAR -->
   <?php include("Menu.inc"); ?>
 
 <main role="main">
-
+<!-- SEKTION MED OVERSKRIFT OG UNDEROVERSKRIFT -->
   <section class="jumbotron text-center">
     <div class="container">
       <h1>Bootstrap</h1>
-      <p class="lead text-muted">Her kan man finde informationer omkring hvad jeg har lært angående design</p>
+      <p class="lead text-muted">Her kan se hvad jeg har lært inden for Bootstrap</p>
     </div>
   </section>
 
@@ -58,42 +62,20 @@
     <!-- START THE FEATURETTES -->
 
     <hr class="featurette-divider">
-
+      <!-- BOOTSTRAP -->
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <h2 class="featurette-heading">Bootstrap.</h2>
+        <p class="lead">Bootstrap er en åben licens som alle kan bruge til deres kode, uanset formål.
+Men man er selv ansvarlig hvis der skulle ske skader eller noget af det på ens hjemmeside ikke virker. Ved bootstrap bestemmer du selv hvor meget du vil bruge der inde fra, og hvad du vil bruge. Bootstrap responsive design fungere ved brug af 12 kolonner. For at kunne bruge de forskellige størrelser af responsive, så skal man bruge “lg” for “large” og det vil sige desktop/laptop version. “md” er “medium” og det størrelsen for tablets/ipad og den sidste størrelse er mobil/smartphone størrelsen, og den defineres som “sm”. Man kan se på billedet her under teksten, at man skal have en div med en “class” der har en værdi “row”. Under den her div skal der så være en div mere, med f.eks. værdien “col-md-4”. “col” er kolonner, og tallet man skriver til sidst, er hvor mange kolonner det indholde man putter ind under “div’en”
+ </p>
       </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-      </div>
+      <!-- BOOTSTRAP BILLEDE -->
+      <img src="bootstrapeksempel.png" height="auto" width="450" alt="">
     </div>
-
+    <!-- BOOTSTRAP SLUT -->
     <hr class="featurette-divider">
 
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
 
     <!-- /END THE FEATURETTES -->
 
@@ -108,10 +90,11 @@
       <i class="fab fa-instagram footer-icon"></i>
       <i class="fas fa-envelope footer-icon"></i>
 
-    <p>© Copyright 2020 Jonas Hawthorn Mikkelsen</p>
+    <p class="copyright">© Copyright 2020 Jonas Hawthorn Mikkelsen</p>
   </div>
   </footer>
 </main>
+<!-- JAVASCRIPT BRUGT TIL ALLE UNDERSIDER -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 </html>
