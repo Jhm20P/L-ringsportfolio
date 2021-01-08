@@ -68,7 +68,7 @@
     <!-- MOVETOOL -->
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">Move tool. <span class="text-muted">Ryk rundt med dine ting.</span></h2>
+        <h2 class="featurette-heading">Move tool. <span class="sidenavn">Ryk rundt med dine ting.</span></h2>
         <p class="lead">"Move tool" er et værktøj du kan bruge til at rykke rundt med dine ting/objekter, den har hotkey'en "v" på dit tastatur. Artboard tool gør at du kan ændre på dine artboads og justere indstillinger på dem.</p>
       </div>
       <div class="col-md-5">
@@ -80,7 +80,7 @@
     <!-- MAGIC WAND TOOL -->
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Magic wand tool. <span class="text-muted">Markér og slet.</span></h2>
+        <h2 class="featurette-heading">Magic wand tool. <span class="sidenavn">Markér og slet.</span></h2>
         <p class="lead">"Magic wand tool" er det tool du kan bruge til at markére et område inde i dit objekt for dig, hvor du herefter kan vælge at slette det der er uden om det valgte område. Med "Quick selection tool" kan man strøje med sin mus henover det man gerne vil have valgt på sit element, hvor efter du kan trykke "Select and Mask" for at lave en maske til netop det man har markéret.</p>
       </div>
       <div class="col-md-5 order-md-1">
@@ -92,7 +92,7 @@
     <!-- LASSO TOOL -->
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">Lasso tool. <span class="text-muted">Optejn og slet.</span></h2>
+        <h2 class="featurette-heading">Lasso tool. <span class="sidenavn">Optejn og slet.</span></h2>
         <p class="lead">"Lasso tool" fungere på den måde at man kan optegne et område hvorefter man kan slette det område man har optegnet, og dette gøres i frihånd. Forstået på den måde at man kan optejne det lige på den måde man gerne vil, der er ikke nogen form  for "Guidelines". "Polygonal Lasso tool" fungere næsten på samme måde, bare her har du et "guideline" der går at hjælper dig med at optejne i lige linjer. "Magnetic Lasso tool" fungere også næsten på samme måde. Den har så også en form for "Guideline" idet at den føgler omridset af det element du gerne vil tegne op.</p>
       </div>
       <div class="col-md-5">
@@ -104,7 +104,7 @@
     <!-- PAINT BUCKET TOOL -->
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Paint bucket tool. <span class="text-muted">Giv dine elementer en farve.</span></h2>
+        <h2 class="featurette-heading">Paint bucket tool. <span class="sidenavn">Giv dine elementer en farve.</span></h2>
         <p class="lead">"Paint bucket tool" kan du bruge til at give et område en farve. Det kan du gøre ved at klikke på værktøjet, vælge en farve også derefter trykke på det område du gerne vil skifte.</p>
       </div>
       <div class="col-md-5 order-md-1">
@@ -116,7 +116,7 @@
     <!-- RECTANGLE TOOL -->
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">Rectangle tool. <span class="text-muted">Skab forskellige figurer.</span></h2>
+        <h2 class="featurette-heading">Rectangle tool. <span class="sidenavn">Skab forskellige figurer.</span></h2>
         <p class="lead">De værktøjer som man kan se over til højre, indeholder blandt andet "Rectangle tool". Med disse værktøjer kan man tegne figurer, såsom firkanter, cirkler, polygoner(femkanter,sekskanter osv.) en lige linje. Dog som man kan se her på billedet, har den ikke den stjerne tool som der er i Illustrator, men man kan stadig tegne den med f.eks. "Polygon tool" og "Costum shape tool".</p>
       </div>
       <div class="col-md-5">
@@ -128,7 +128,7 @@
     <!-- ZOOM TOOL -->
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Zoom tool. <span class="text-muted">Zomm ind eller ud på dit lærred.</span></h2>
+        <h2 class="featurette-heading">Zoom tool. <span class="sidenavn">Zomm ind eller ud på dit lærred.</span></h2>
         <p class="lead">Ved brug af "Zoom tool" kan du zoome ind ved at holde vesntre mussetast inde og træk derefter mod højre. For at zoome ud skal du også holde venstre mussetast inde, men derimod træk mod venstre.</p>
       </div>
       <div class="col-md-5 order-md-1">
