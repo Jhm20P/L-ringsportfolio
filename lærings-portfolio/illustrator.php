@@ -65,7 +65,7 @@
     <!-- SELECTOR TOOL -->
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">Selectors <span class="text-muted">Vælger et objekt</span></h2>
+        <h2 class="featurette-heading">Selectors <span class="sidenavn">Vælger et objekt</span></h2>
         <p class="lead">På billede over til højre har vi værktøjskassen, hvor vi har selectors i dette tilfælde. Det man kan bruge selectors til at vælge et objekt at rykke rundt med, eller "group" flere objekter sammen til et objekt. Der er tre forskellige "Selectors" du kan vælge imellem. Det er f.eks. den almindelige "Selection tool", "Direct selection" eller "Group selection". Med "Selection tool" kan du også vælge flere objekter på  samme tid, ved at holde "shift" inde også derefter trykke på det valgte objekt.  Med "Direct selection" kan du ændre formen på det valgte objekt. <cite> -Tony Harmer, Linkedid learning, 20-12-2020 </cite></p>
       </div>
       <div class="col-md-5">
@@ -77,7 +77,7 @@
     <!-- TEGNE VÆRKTØJ -->
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Tegne værktøjer <span class="text-muted">Vælg det der passer bedst</span></h2>
+        <h2 class="featurette-heading">Tegne værktøjer <span class="sidenavn">Vælg det der passer bedst</span></h2>
         <p class="lead">Der 6 forskellige værktøjer man kan bruge i værktøjskassen når det kommer til at tegne former, og det kan ses på billedet til venstre. Det første er "Rectangle Tool" som gør at man kan begynde at tegne firkanter. Den næste er hvor man kan tegne firkanter med afrundede kanter. Ved nr 3 kan man tegne cirkler. Ved nr 4 kan man tegne polygoner, såsom femkanter osv. Ved nr 5 kan man tegne stjerner. Og den sidste, kan man tegne sådan noget flare, hvilket kan bruges til f.eks at tegne et øje eller noget andet.<cite> -Tony Harmer, Linkedid learning, 20-12-2020 </cite></p>
       </div>
       <div class="col-md-5 order-md-1">
@@ -89,7 +89,7 @@
     <!-- FARVER -->
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">Farver. <span class="text-muted">Giv dine objekter en identitet</span></h2>
+        <h2 class="featurette-heading">Farver. <span class="sidenavn">Giv dine objekter en identitet</span></h2>
         <p class="lead">Dette her værktøj som kan ses på billedet til højre,   bruger man til at skifte farve med. Man kan gå ind og vælge den farve man gerne vil, og man kan endda se "hexa" koden for den farve man har valgt sådan at man kan sætte den "hexa" kode ind i sin CSS</p>
       </div>
       <div class="col-md-5">
