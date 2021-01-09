@@ -1,6 +1,10 @@
 .karusel {
   background-color: #5cc8a8;
 }
+.social {
+  padding-top: 11%;
+  padding-bottom: 11%;
+}
 
 .carousel-img {
 
@@ -19,6 +23,10 @@
     .carousel-img{
     	background-image: url(html.jpg);
       width: 70% !important;
+    }
+
+    #knap {
+      margin-top: 17%;
     }
 }
 
@@ -39,6 +47,9 @@
      }
 
 
+     #knap {
+       margin-top: 13%;
+     }
 
 }
 
@@ -59,13 +70,17 @@ body {
   text-align: right;
 }
 
+.copyright {
+  color: #fff;
+}
 
 .footer-icon {
   margin: 20px 10px;
+  color: #fff;
 }
 
 #footer {
-  background-color: #5cc8a8;
+  background-color: #5984CD;
   padding-top: 80px;
   padding-bottom: 80px;
 }
