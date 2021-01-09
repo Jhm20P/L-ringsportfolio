@@ -68,9 +68,6 @@
         <p class="lead">Vi har under vores undersøgelser valgt nogle forskellige undersøgelses former, af dem som vi har læst om i bogen, Usability. Vi endte derfor ud med at benytte de nævnte test som er beskrevet nedenfor, fordi ud fra hvad vi har læst, virkede det til at være de bedste metoder til vores undersøgelser.</p>
         <p class="lead"><cite>-Andreas, Veli og Jonas, Moodle/<a class="google" href="https://itcn-my.sharepoint.com/:w:/g/personal/10741_student_eadania_dk/EZBUH-M0lBdPt6lZy7cqm6QBg4g2nbzlip7QKr4vXX69Uw?e=GnW4ep" target="_blank">Word</a>, <time datetime="2020-10-26">26 oktober, 2020</time></cite></p>
       </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-      </div>
     </div>
     <!-- Metode valg slut -->
     <hr class="featurette-divider">
