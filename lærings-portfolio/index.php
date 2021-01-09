@@ -5,9 +5,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="favicon.ico">
 
   <!-- CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <!-- EGEN CSS -->
   <link rel="stylesheet" href="style1.css">
 
 
@@ -18,7 +20,7 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;900&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <title>Lærings Portfolio</title>
+  <title>Læringsportfolio</title>
 </head>
 
 <body>
@@ -43,12 +45,12 @@
       </div>
       <div class="carousel-item">
         <div class="container">
-        <img src="kom.jpg" class="carousel-img" alt="...">
+        <img src="social.png" class="carousel-img social" alt="...">
       </div>
       </div>
       <div class="carousel-item">
         <div class="container">
-        <img src="design.jpg" class="carousel-img" alt="...">
+        <img src="design2.png" class="carousel-img" alt="...">
       </div>
       </div>
     </div>
@@ -67,18 +69,18 @@
 <!--
   Indhold -->
   <section class="white-section" id="emner">
+    <!-- HEADING -->
+    <h2 class="section-heading" style="padding-top: 2%;">Emner</h2>
+    <p>Her kan du se hvad de forskellige emner indeholder.</p>
 
-    <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
-    <p>Simple and affordable price plans for your and your dog.</p>
 
 
-
-    <div class="row">
-
+    <div class="row" style="padding-bottom: 1%;">
+      <!-- DESIGN KORT -->
   <div class="pricing-clumn col-lg-3 col-md-6">
     <div class="card">
       <div class=" card-header">
-        <h3>Desgin</h3>
+        <h3>Design</h3>
       </div>
       <div class=" card-body">
         <h2 class="price-text">Dette indeholder</h2>
@@ -87,11 +89,11 @@
         <p>Gestaltlovene</p>
         <p>Typografi</p>
         <p>Quck n' dirty video</p>
-        <button type="button" class="btn btn-outline-dark btn-lg btn-block">Se mere</button>
+        <a href="design.php"><button type="button" class="btn btn-outline-dark btn-lg btn-block">Se mere</button></a>
       </div>
     </div>
   </div>
-
+  <!-- KODNING KORT -->
   <div class="pricing-clumn col-lg-3 col-md-6">
     <div class="card">
       <div class=" card-header">
@@ -104,11 +106,11 @@
         <p>Responsiv design</p>
         <p>Versionsstyring</p>
         <p>PHP og serverside</p>
-        <button type="button" class="btn btn-dark btn-lg btn-block">Se mere</button>
+        <a href="kodning.php"><button type="button" class="btn btn-dark btn-lg btn-block">Se mere</button></a>
       </div>
     </div>
   </div>
-
+  <!-- KOMMUNIKATION KORT -->
   <div class="pricing-clumn col-lg-3 col-md-6">
     <div class="card">
       <div class=" card-header">
@@ -121,13 +123,13 @@
         <p>Paradigmer</p>
         <p>Ophavsret og licens</p>
         <p>BMC</p>
-        <button type="button" class="btn btn-dark btn-lg btn-block">Se mere</button>
+        <a href="kommunikation.php"><button type="button" class="btn btn-dark btn-lg btn-block">Se mere</button></a>
       </div>
     </div>
     </div>
-
+    <!-- PROJEKTER KORT -->
     <div class="pricing-clumn col-lg-3 col-md-6">
-      <div class="card">
+      <div class="card" style="height: 400px;">
         <div class=" card-header">
           <h3>Projekter</h3>
         </div>
@@ -137,7 +139,7 @@
           <p>Design thinking</p>
           <p>Onepage</p>
           <p>Portfolio</p>
-          <button type="button" class="btn btn-dark btn-lg btn-block">Se mere</button>
+          <a href="projekter.php"><button type="button" id="knap" class="btn btn-dark btn-lg btn-block">Se mere</button></a>
         </div>
       </div>
       </div>
@@ -155,7 +157,7 @@
       <i class="fab fa-instagram footer-icon"></i>
       <i class="fas fa-envelope footer-icon"></i>
 
-    <p>© Copyright 2020 Jonas Hawthorn Mikkelsen</p>
+    <p class="copyright">© Copyright 2020 Jonas Hawthorn Mikkelsen</p>
   </div>
   </footer>
 
