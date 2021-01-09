@@ -9,10 +9,10 @@
  </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
+        <li class="nav-item ml-auto">
           <a class="nav-link active" aria-current="page" href="index.php">HJEM</a>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown ml-auto">
           <a class="nav-link dropdown-toggle" href="design.php" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             DESGIN
           </a>
@@ -25,7 +25,7 @@
             <li><a class="dropdown-item" href="#">Gestaltlovene</a></li>
           </ul>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown ml-auto">
           <a class="nav-link dropdown-toggle" href="kodning.php" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             KODNING
           </a>
@@ -39,7 +39,7 @@
             <li><a class="dropdown-item" href="#">PHP og serverside</a></li>
           </ul>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown ml-auto">
           <a class="nav-link dropdown-toggle" href="kommunikation.php" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             KOMMUNIKATION
           </a>
@@ -55,7 +55,7 @@
             <li><a class="dropdown-item" href="#">Informationsarkitektur</a></li>
           </ul>
         </li>
-        <li class="nav-item dropdown">
+        <li class="nav-item dropdown ml-auto">
           <a class="nav-link dropdown-toggle" href="projekter.php" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             PROJEKTER
           </a>
