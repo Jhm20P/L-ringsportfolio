@@ -47,7 +47,7 @@
   <section class="jumbotron text-center">
     <div class="container">
       <h1>Tekstproduktion</h1>
-      <p class="lead text-muted">Her kan man finde informationer omkring hvad jeg har lært angående design</p>
+      <p class="lead text-muted">Her kan man finde informationer omkring hvad jeg har lært angående tekstproduktion</p>
     </div>
   </section>
 
