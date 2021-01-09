@@ -1,12 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="da">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="author" content="Jonas Hawthorn Mikkelsen">
     <meta name="generator" content="Jekyll v4.1.1">
-    <title>Carousel Template · Bootstrap</title>
+    <link rel="icon" href="favicon.ico">
+    <title>Præsentationsteknik</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
 
@@ -15,9 +16,11 @@
 
     <!-- Bootstrap core CSS -->
 <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- EGEN CSS -->
 <link rel="stylesheet" href="underside.css">
 <link rel="stylesheet" href="bodyfix.css">
-
+<link rel="stylesheet" href="billede.css">
+  <!-- INTERN CSS -->
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -37,14 +40,15 @@
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
   </head>
+    <!-- MENU BAR -->
   <?php include("Menu.inc"); ?>
 
 <main role="main">
-
+<!-- SEKTION MED OVERSKRIFT OG UNDEROVERSKRIFT -->
   <section class="jumbotron text-center">
     <div class="container">
       <h1>Præsentationsteknik</h1>
-      <p class="lead text-muted">Her kan man finde informationer omkring hvad jeg har lært angående design</p>
+      <p class="lead text-muted">Her kan man finde informationer omkring hvad jeg har lært angående Præsentationsteknik</p>
     </div>
   </section>
 
@@ -58,41 +62,15 @@
     <!-- START THE FEATURETTES -->
 
     <hr class="featurette-divider">
-
+    <!-- PRÆSENTATIONTEKNIKKEN -->
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <h2 class="featurette-heading">Præsentationsteknikken. <span class="sidenavn">De forskellige faser.</span></h2>
+        <p class="lead">Der er fem faser til præsentationsteknik. Disse faser hedder Inventio, Dispositio, Elocutio, Memoria og til sidst Actio. Inventio er den første fase, hvor det indebærer at man skal undersøge formålet med talen, og det kan gøres ved at man starter med at researche det emne man skal lave en tale til. Efter det skal man lave en brainstorm af sin tale, og det kan man gøre ved at bruge toulmins argumentationsmodel, for at sikre sig, at man har en god tale.Dispositio er fase nummer 2, som betyder disposition. Det som man skal gøre i fase 2, er at man skal kunne formulere/komme på et budskab som skal være i ens tale. Den tredje fase er Elocutio som betyder øvelse. Det vil sige man øver sig på det man er nået frem til, på den måde finder man også et sprog stil der passer til ens tekst, samt man finder en måde på hvordan man skal præsentere på.  I denne her fase skal man også gøre brug af appelformerne Ethos, Pathos og logos.  Den fjerde fase der hedder Memoria som betyder “at huske” er hvor man laver et manuskript over sin tale og præsentation, og ved det manuskript man nu har lavet, begynder man så at øve sig på, sådan at man kan huske hvad man skal gøre samt sige.  Den femte fase Actio som også er den sidste fase. Denne fase betyder udførelse af talen. Det vil sige at det er her man skal præsentere sin emne samt lave en evaluering over det. </p>
+        <p class="lead"><cite><a href="https://itcn-my.sharepoint.com/:p:/g/personal/10741_student_eadania_dk/EWcPy_3UZLxPp6UeSfvBJAcBfsclsxOV7TCS3CR6f85aWQ?e=daMHam" target="_blank"> Moodle præsentationsteknik,</a> noteret fra Mortens powerpoint <time datetime="2020-09-23">23 sep 2020</time></cite></p>
       </div>
     </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-      </div>
-    </div>
-
+    <!-- PRÆSENTATIONTEKNIKKEN SLUT -->
     <hr class="featurette-divider">
 
     <!-- /END THE FEATURETTES -->
@@ -108,10 +86,11 @@
       <i class="fab fa-instagram footer-icon"></i>
       <i class="fas fa-envelope footer-icon"></i>
 
-    <p>© Copyright 2020 Jonas Hawthorn Mikkelsen</p>
+    <p class="copyright">© Copyright 2020 Jonas Hawthorn Mikkelsen</p>
   </div>
   </footer>
 </main>
+<!-- JAVASCRIPT BRUGT TIL ALLE UNDERSIDER -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 </html>
