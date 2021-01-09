@@ -1,0 +1,70 @@
+/* tablet/ipad version */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .win2{
+    margin-top:  110px;
+  }
+
+  .quick {
+    height: auto;
+    width: 45%;
+  }
+
+  .css-billede {
+    height: auto;
+    width: 70%;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+}
+/* desktop version */
+@media screen and (min-width: 1080px) {
+
+  .win2{
+    margin-top:  110px;
+  }
+
+  .quick {
+    height: auto;
+    width: 35%;
+  }
+
+  .css-billede {
+    height: auto;
+    width: 50%;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+}
+/* mobil version */
+@media screen and (min-width: 375px) and (max-width: 414px){
+
+  .sponsor {
+    margin: auto;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .quick {
+    height: auto;
+    width: 25%;
+  }
+
+}
+
+.rotere {
+  width: 70%;
+  height: auto;
+  transform: rotate(-90deg);
+}
