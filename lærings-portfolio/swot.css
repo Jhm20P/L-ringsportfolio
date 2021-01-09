@@ -1,0 +1,89 @@
+/* BILLEDE SEKTION */
+/* "S" Billede */
+.cicle {
+  border-radius: 100%;
+  background-color: #fff;
+  float: left;
+  border-color: #5984CD;
+  border-style: dashed;
+}
+
+/* "O" Billede */
+.cicle1 {
+  border-radius: 100%;
+  background-color: #fff;
+  float: left;
+  border-color: #5984CD;
+  border-style: dashed;
+  margin-top: 5%;
+}
+
+/* "W" Billede */
+.cicle2 {
+  border-radius: 100%;
+  background-color: #fff;
+  float: left;
+  border-color: #5984CD;
+  border-style: dashed;
+  margin-top: 10%;
+}
+
+/* "T" Billede */
+.cicle3 {
+  border-radius: 100%;
+  background-color: #fff;
+  float: left;
+  border-color: #5984CD;
+  border-style: dashed;
+  margin-top: 12%;
+}
+
+/* TEKST SEKTION */
+/* Styke og mulighed tekst */
+.tekst {
+  background-color: #5984CD;
+  color: #fff;
+  width: 80%;
+  margin-left: 8%;
+  padding-left: 5%;
+}
+
+/* Svagheder og trusler tekst */
+.tekst1 {
+  background-color: #5984CD;
+  color: #fff;
+  width: 100%;
+  margin-left: 8%;
+  padding-left: 10%;
+}
+
+/* Kontainer for swot analyse */
+.kontainer {
+  width: 70%;
+  justify-content: space-around;
+}
+
+/* Billede af Swot analyse */
+.swot-billede{
+  display: none;
+}
+
+/* Størrelse forhold til mobil */
+@media screen and (min-width: 375px) and (max-width: 414px) {
+  .swot-billede{
+    display: block;
+  }
+  table {
+    display: none;
+  }
+}
+
+/* Størrelse forhold til tablet */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .swot-billede{
+    display: block;
+  }
+  table {
+    display: none;
+  }
+}
