@@ -1,0 +1,12 @@
+p{
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.punkt {
+  margin-top: 1rem;
+}
+
+.google:link{
+  text-decoration: none;
+}
