@@ -1,12 +1,13 @@
 <!doctype html>
-<html lang="en">
+<html lang="da">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="author" content="Jonas Hawthorn Mikkelsen">
     <meta name="generator" content="Jekyll v4.1.1">
-    <title>Carousel Template · Bootstrap</title>
+    <link rel="icon" href="favicon.ico">
+    <title>Læringsportfolio</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
 
@@ -15,9 +16,11 @@
 
     <!-- Bootstrap core CSS -->
 <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- EGEN CSS -->
 <link rel="stylesheet" href="underside.css">
 <link rel="stylesheet" href="bodyfix.css">
-
+<link rel="stylesheet" href="billede.css">
+  <!-- INTERN CSS -->
     <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -37,14 +40,15 @@
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
   </head>
+  <!-- MENU BAR -->
   <?php include("Menu.inc"); ?>
 
 <main role="main">
-
+<!-- SEKTION MED OVERSKRIFT OG UNDEROVERSKRIFT -->
   <section class="jumbotron text-center">
     <div class="container">
       <h1>Læringsportfolio</h1>
-      <p class="lead text-muted">Her kan man finde informationer omkring hvad jeg har lært angående design</p>
+      <p class="lead text-muted">Her man se hvordan Læringsportfolio projektet er grebet an og hvordan det har været at lave den.</p>
     </div>
   </section>
 
@@ -58,41 +62,38 @@
     <!-- START THE FEATURETTES -->
 
     <hr class="featurette-divider">
-
+    <!-- INDLEDNING -->
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <h2 class="featurette-heading">Indledning.</h2>
+        <p class="lead">Det læringsportfolio som vi skulle lave, er et eksamensprojekt. Det som læringsportfoilioet er, er en hjemmeside, hvor vi har skrevet ind alt hvad vi har haft og lært om i løbet af det første semester- Så læringsportfolio kan også fungere som et opslagsværk, det vil sige at man kan opdatere hjemmeside med nye emner, med nye notater.</p>
       </div>
     </div>
-
+    <!-- INDLEDNING SLUT -->
     <hr class="featurette-divider">
-
+    <!-- WIREFRAMES OG TEST -->
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <h2 class="featurette-heading">Wireframes og test.</h2>
+        <p class="lead">I starten inden jeg begyndte at kode hjemmesiden, lavede jeg wireframes over hjemmesiden, for mobil, tablet/ipad og desktop. Efter at jeg have lavet de her wireframes, gik jeg ud og testede jeg dem for at se hvad jeg skulle ændre og forbedre. Når jeg var færdig med at teste, begyndte jeg med at kode hjemmesiden.  Under forløbet af kodningen testede jeg også hjemmesiden af på venner og klassekammerater for at se hvad jeg kunne gøre bedre ved hjemmesiden.</p>
       </div>
     </div>
-
+    <img class="rotere" src="mobilforside.jpg" alt="">
+    <img src="mobilunderside.jpg" alt="">
+    <img src="tabletforside.jpg" alt="">
+    <img src="tabletunderside.jpg" alt="">
+    <img src="desktopforside.jpg" alt="">
+    <img class="rotere" src="desktopunderside.jpg" alt="">
+    <!-- WIREFRAMES OG TEST SLUT -->
     <hr class="featurette-divider">
-
+    <!-- REFLEKSION -->
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <h2 class="featurette-heading">Refleksion.</h2>
+        <p class="lead">Det er man skulle lave sin egen hjemmeside har været sjov og spændende, men også lidt svært og frustrerende på nogle punkter. De punkter at de har været lidt svært og frustrerende er hvor man brugte en menubar der ikke virkeede ordentlig på mobil og tablet. Men der har også været hvor jeg brugte bootstrap 5.0v som stadig var i beta. Det bootstrap 5.0v stadig var i beta betød at der stadig var nogle bugs ved den, så nogle af de ting jeg ikke kunne få til at virke, skyldes nemlig bootstrap 5.0v. Men da skiftede over til bootstrap 4.5 virkede det meste, hvilket gjorde at det var nemmere at komme videre.</p>
       </div>
     </div>
-
+    <!-- REFLEKSION SLUT -->
     <hr class="featurette-divider">
 
     <!-- /END THE FEATURETTES -->
@@ -108,10 +109,11 @@
       <i class="fab fa-instagram footer-icon"></i>
       <i class="fas fa-envelope footer-icon"></i>
 
-    <p>© Copyright 2020 Jonas Hawthorn Mikkelsen</p>
+    <p class="copyright">© Copyright 2020 Jonas Hawthorn Mikkelsen</p>
   </div>
   </footer>
 </main>
+<!-- JAVASCRIPT BRUGT TIL ALLE UNDERSIDER -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 </html>
